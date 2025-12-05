@@ -20,7 +20,7 @@
   <style>
     html {
       margin: 0 auto;
-      background-image: linear-gradient(to bottom, white, #909EC7);
+      background-image: linear-gradient(to top, white 0%, white 30%, #E3F5F9 100%);
     }
 
     body {
@@ -32,7 +32,8 @@
       max-width: 1200px;
       margin: auto;
       position: relative;
-      border: 2px solid black;
+      border-left: 10px double black;
+      border-right: 10px double black;
       padding-bottom: 1000px;
     }
 
@@ -56,7 +57,7 @@
     h3 {
       font-family: 'Kapakana', sans-serif;
       font-size: 75px;
-      font-weight: 360;
+      font-weight: 340;
       color: black;
       position: absolute;
     }
@@ -90,12 +91,11 @@
       text-decoration: none;
     }
     
-    .rectangle {
-      height: 100%;
-      width: 100%;
-      background-color: white;
+    .bottombanner {
+      border-top: 10px double black;
       display: flex;
       justify-content: center;
+      position: relative;
     }
     
     
@@ -105,7 +105,6 @@
 
   <body>
 
-    
     <div class="container">
       <h1 style="right: 5%; top: 30%;">
         Lucas Lee
@@ -157,9 +156,8 @@
 
     </div>
 
-    <div class="rectangle">
-      <img src="csmPanel.png" alt="Manga panel" style="height: 500px; width: 100%">
-    
+    <div class="bottombanner">
+      <img src="csmPanel.png" alt="Manga panel" style="height: 650px; width: 100%">
     </div>
     
     
